@@ -1,0 +1,40 @@
+# --- Core LangChain & OpenAI ---
+langchain>=0.3.0,<0.4.0
+langchain-openai>=0.2.0
+langchain-openai
+openai>=1.50.0,<2.0.0
+tiktoken
+faiss-cpu
+
+# --- Tools & Agent Integrations ---
+langchainhub
+langchain-community
+langchain-core
+requests
+python-dotenv   
+numpy<2      
+pypdf
+pytest
+langchain-ollama
+
+
+# --- App / UI Frameworks ---
+streamlit             
+gradio                
+fastapi               
+uvicorn             
+tqdm  
+
+# --- Local LLMs (Ollama, Hugging Face, etc.) ---
+langchain-ollama
+transformers>=4.43.0
+accelerate
+sentence-transformers  
+faiss-cpu              
+torch                  
+numpy
+scikit-learn
+
+# --- Optional but Recommended ---
+chromadb               
+qdrant-client          
