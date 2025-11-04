@@ -1,0 +1,1 @@
+## ChatDocs – Application RAG multi-PDF : Développement d’un chatbot intelligent pour interroger des documents PDF.
