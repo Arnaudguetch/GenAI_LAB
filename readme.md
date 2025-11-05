@@ -81,4 +81,4 @@
 ```
 #### Image de l'interface :
 
-![RAG Streamlit](course_langchain/image.png)
+> Retrouver l'image dans le dossier image.
