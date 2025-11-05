@@ -31,26 +31,26 @@
         │
         ▼
 ┌───────────────────────────────┐
-│ Interface Streamlit            │
-│ - Upload PDF                   │
+│ Interface Streamlit           │
+│ - Upload PDF                  │
 │ - Choix LLM (GPT / LLaMA)     │
-│ - Choix Embeddings             │
-│ - Boutons Build / Clear / Save │
+│ - Choix Embeddings            │
+│ - Boutons Build / Clear / Save│
 └───────┬───────────────────────┘
         │
         ▼
 ┌───────────────────────────────┐
-│ Vérification des PDFs          │
+│ Vérification des PDFs         |
 │ - Compare PDF existants vs    │
 │   cache (pickle)              │
-│ - Si nouveaux PDFs détectés: │
-│   reconstruire FAISS           │
+│ - Si nouveaux PDFs détectés:  │
+│   reconstruire FAISS          │
 └───────┬───────────────────────┘
         │
         ▼
 ┌───────────────────────────────┐
 │  FAISS Index (Vector Store)   │
-│ - Indexe les documents PDFs  │
+│ - Indexe les documents PDFs   │
 │ - Stocke les embeddings       │
 │ - Sauvegarde sur disque       │
 └───────┬───────────────────────┘
@@ -79,3 +79,7 @@
 │  réponse      │
 └───────────────┘
 ```
+#### Image de l'interface :
+
+> IMAGE STREAMLIT :
+> ![rag streamlit](course_langchain/image.png)
