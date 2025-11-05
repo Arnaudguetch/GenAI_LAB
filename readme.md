@@ -81,5 +81,4 @@
 ```
 #### Image de l'interface :
 
-IMAGE STREAMLIT :
 ![RAG Streamlit](course_langchain/image.png)
